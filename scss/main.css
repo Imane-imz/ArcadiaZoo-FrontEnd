@@ -12031,10 +12031,20 @@ h1, .h1 {
     text-align: center;
 } */
 .button-home {
-  height: 140px;
-  width: 140px;
+  height: 120px;
+  width: 250px;
   margin-top: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
+}
+.button-home:hover {
+  transition: all(0.3);
+  background-color: #FFCB00;
+  color: #212D25;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
