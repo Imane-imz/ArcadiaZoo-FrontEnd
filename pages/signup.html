@@ -1,0 +1,48 @@
+<div class="hero-scene text-center text-white">
+    <div class="hero-scene-content">
+        <div class="text-hero-scene">
+            <h1>INSCRIPTION</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container p-4">
+    <form>
+        <div class="mb-3">
+            <label for="NomInput" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="NomInput" placeholder="Entrer le Nom">
+        </div>
+        <div class="mb-3">
+            <label for="PrenomInput" class="form-label">Prénom</label>
+            <input type="text" class="form-control" id="PrenomInput" placeholder="Entrer le prénom">
+        </div>
+        <div class="pt-2 pb-3">
+            <label for="RoleInput" class="form-label">Rôle</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Sélectionner le rôle</option>
+                <option value="1">Vétérinaire</option>
+                <option value="2">Employé.e</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="EmailInput" class="form-label">Adresse email</label>
+            <input type="email" class="form-control" id="EmailInput" placeholder="exemple@mail.fr">
+        </div>
+        <div class="mb-3">
+            <label for="PasswordInput" class="form-label">Mot de passe</label>
+            <input type="password" class="form-control" id="PasswordInput">
+        </div>
+        <div class="mb-3">
+            <label for="ValidatePasswordInput" class="form-label">Validez le mot de passe</label>
+            <input type="password" class="form-control" id="ValidatePasswordInput">
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Inscription</button>
+        </div>
+    </form>
+    <div class="text-center pt-4">
+        <a href="/signinadmin">Vous avez déjà un compte administrateur ? Connectez-vous ici.</a><br>
+        <a href="/signinvet">Vous avez déjà un compte vétérinaire ? Connectez-vous ici.</a><br>
+        <a href="/signinemployee">Vous avez déjà un compte employé.e ? Connectez-vous ici.</a><br>
+    </div>
+</div>

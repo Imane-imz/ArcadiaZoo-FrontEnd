@@ -11993,8 +11993,17 @@ h1, .h1 {
   font-size: 48px;
 }
 
+h2, .h2 {
+  font-family: "Crimson Text", serif;
+}
+
+a {
+  color: #3D5241;
+}
+
 .hero-scene {
   position: relative;
+  margin-bottom: 15px;
 }
 .hero-scene::before {
   content: "";
@@ -12032,9 +12041,8 @@ h1, .h1 {
 } */
 .button-home {
   height: 120px;
-  width: 250px;
+  width: 200px;
   margin-top: 10px;
-  margin-left: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
 }
@@ -12047,4 +12055,8 @@ h1, .h1 {
 .container-btn {
   display: flex;
   justify-content: center;
+}
+
+.form-label {
+  color: #3D5241;
 }/*# sourceMappingURL=main.css.map */
