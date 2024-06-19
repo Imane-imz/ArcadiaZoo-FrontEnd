@@ -5,7 +5,7 @@
             <h1>ZOO ARCADIA</h1>
         </div>
         <div class="button-hero-scene">
-            <button class="btn btn-primary" href="pages/reviews">Lire les avis</button>
+            <button class="btn btn-primary" href="#avis">Lire les avis</button>
         </div>
     </div>
 </div>
@@ -17,9 +17,124 @@
     </div>
 </div>
 
-<div class="rectangle-text bg-dark">
+<div class="rectangle-text bg-dark" id="habitats">
     <h1 class="text-white">Les habitats du zoo</h1>
 </div>
 
+<div class="container row row-cols-1 row-cols-lg-3">
+    <div class="col p-3">
+        <div class="image-card text-white">
+            <img src="../images/HabitatTerrestreSuricate.jpg" class="rounded w-100"/>
+            <h2 class="titre-image">Les habitats terrestres</h2>
+        </div>
+    </div>
+    <div class="col p-3">
+        <div class="image-card text-white">
+            <img src="../images/HabitatAquatique.jpg" class="rounded w-100"/>
+            <h2 class="titre-image">Les habitats aquatiques</h2>
+        </div>
+    </div>
+    <div class="col p-3">
+        <div class="image-card text-white">
+            <img src="../images/HabitatAerien.jpg" class="rounded w-100"/>
+            <h2 class="titre-image">Les habitats aériens</h2>
+        </div>
+    </div>  
+</div>
 
+<div class="rectangle-text bg-dark" id="activites">
+    <h1 class="text-white">Les activités du zoo</h1>
+</div>
 
+<div class="container row row-cols-1 row-cols-lg-3">
+    <div class="col p-3">
+        <div class="image-card text-white">
+            <img src="../images/Restaurant1.jpg" class="rounded w-100"/>
+            <h2 class="titre-image">Restauration</h2>
+        </div>
+    </div>
+    <div class="col p-3">
+        <div class="image-card text-white">
+            <img src="../images/Visite1.jpg" class="rounded w-100"/>
+            <h2 class="titre-image">Visites des habitats</h2>
+        </div>
+    </div>
+    <div class="col p-3">
+        <div class="image-card text-white">
+            <img src="../images/Train1.jpg" class="rounded w-100"/>
+            <h2 class="titre-image">Visite en petit train</h2>
+        </div>
+    </div>  
+</div>
+
+<div class="rectangle-text bg-dark" id="avis">
+    <h1 class="text-white">Les avis</h1>
+</div>
+
+<div class="container row row-cols-1 row-cols-lg-3">
+    <div class="col p-3">
+        <div class="image-card">
+            <img src="../images/RectangleGris.png" class="rounded w-100"/>
+            <p class="titre-image text-center">
+                <i class="bi bi-star-fill color-primary"></i>
+                <i class="bi bi-star-fill color-primary"></i>
+                <i class="bi bi-star-fill color-primary"></i>
+                <i class="bi bi-star-fill color-primary"></i>
+                <i class="bi bi-star-fill color-primary"></i></br></br>
+                    <b>Pseudo 1</b></br></br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+        </div>
+    </div>
+    <div class="col p-3">
+        <div class="image-card">
+            <img src="../images/RectangleGris.png" class="rounded w-100"/>
+            <p class="titre-image text-center">
+                <i class="bi bi-star-fill color-primary"></i>
+                <i class="bi bi-star-fill color-primary"></i>
+                <i class="bi bi-star-fill color-primary"></i>
+                <i class="bi bi-star-fill color-primary"></i>
+                <i class="bi bi-star-fill color-primary"></i></br></br>
+                    <b>Pseudo 2</b></br></br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+        </div>
+    </div>
+    <div class="col p-3">
+        <div class="image-card">
+            <img src="../images/RectangleGris.png" class="rounded w-100"/>
+            <p class="titre-image text-center">
+            <i class="bi bi-star-fill color-primary"></i>
+            <i class="bi bi-star-fill color-primary"></i>
+            <i class="bi bi-star-fill color-primary"></i>
+            <i class="bi bi-star-fill color-primary"></i>
+            <i class="bi bi-star-fill color-primary"></i></br></br>
+                <b>Pseudo 3</b></br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+        </div>
+    </div>  
+</div>
+
+<div class="rectangle-text bg-dark" id="contacter">
+    <h1 class="text-white">Contacter le zoo</h1>
+</div>
+<div class="bg-dark p-4">
+    <form class="container">
+        <div class="mb-3">
+            <label for="titreInput" class="form-label text-white">Titre du message</label></br>
+            <input class="form-control" type="text" id="titreInput" placeholder="Entrez le titre de votre message">
+        </div>
+        <div class="mb-3">
+            <label for="messageInput" class="form-label text-white">Votre message</label></br>
+            <textarea class="rounded form-label" rows="6" cols="120" id="messageInput" placeholder="Écrivez votre message ici"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="EmailInput" class="form-label text-white">Adresse email *</label></br>
+            <input type="email" class="form-control" id="EmailInput" placeholder="exemple@email.fr" required>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Envoyer votre demande</button>
+        </div>
+    </form>
+</div>
