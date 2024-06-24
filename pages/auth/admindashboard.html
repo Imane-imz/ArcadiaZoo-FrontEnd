@@ -1,68 +1,98 @@
-<div class="admin-account text-center text-white">
-        <div class="admin-account-content">
+<div class="rectangle-text bg-dark">
+        <div class="text-center text-white">
             <h2>Bienvenue, José !</h2>
         </div>
 </div>
 
-<div class="container text-center">
+<div class="container text-center p-4">
     <div class="container-btn text-center row row-cols-2 row-cols-lg-1">
         <div class="text-center">
-            <button class="btn btn-dark button-home col">Configurer les services</button>
-            <button class="btn btn-dark button-home col">Paramètres du compte</button>
-            <button class="btn btn-dark button-home col" href="/signup">Créer un compte "Vétérinaire"</button>
-            <button class="btn btn-dark button-home col" href="/signup">Créer un compte "Employé.e"</button>
+            <button class="btn btn-primary button-home col">Configurer les services</button>
+            <button class="btn btn-primary button-home col">Modifier les habitats/animaux</button>
+            <button class="btn btn-primary button-home col" href="#">Créer un compte "Vétérinaire"</button>
+            <button class="btn btn-primary button-home col" href="#">Créer un compte "Employé.e"</button>
         </div>
     </div>
 </div>
 
-<div class="text-center">
-    <h1>Comptes-rendus vétérinaires</h1>
-</div>
+<div class="bg-black text-white p-4">
+    <div class="text-center">
+     <h1>Comptes-rendus vétérinaires</h1>
+    </div>
 
-<div class="container p-4">
-    <div class="dropdown text-center mb-5">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Trier par
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Date</a></li>
-          <li><a class="dropdown-item" href="#">Animaux</a></li>
-        </ul>
-      </div>
-    <div class="pt-1 pb-3">
-        <ul>
-            <li><a href="#">Titre du compte-rendu 1</a></li><hr>
-            <li><a href="#">Titre du compte-rendu 1</a></li><hr>
-            <li><a href="#">Titre du compte-rendu 1</a></li><hr>
-            <li><a href="#">Titre du compte-rendu 1</a></li><hr>
-            <li><a href="#">Titre du compte-rendu 1</a></li><hr>
-        </ul>
-        <a href="#">Afficher la suite...</a>
+    <div class="container p-4">
+        <div class="dropdown text-center mb-5">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Trier par
+            </button>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Date</a></li>
+            <li><a class="dropdown-item" href="#">Animaux</a></li>
+            </ul>
+        </div>
+        <div class="pt-1 pb-3">
+            <ul class="text-white">
+                <li><a class="col text-white" href="#">22/07/2024 -- Léo</a>
+                    <div class="col text-center">
+                        <button class="btn btn-primary text-center" type="button">Ouvrir</button>
+                    </div>
+                </li><hr>
+                <li><a class="text-white" href="#">22/07/2024 -- Léa</a>
+                    <div class="col text-center">
+                        <button class="btn btn-primary text-center" type="button">Ouvrir</button>
+                    </div>
+                </li><hr>
+                <li><a class="text-white" href="#">22/07/2024 -- Tigro</a>
+                    <div class="col text-center">
+                        <button class="btn btn-primary text-center" type="button">Ouvrir</button>
+                    </div>
+                </li><hr>
+                <li><a class="text-white" href="#">22/07/2024 -- Tigra</a>
+                    <div class="col text-center">
+                        <button class="btn btn-primary text-center" type="button">Ouvrir</button>
+                    </div>
+                </li><hr>
+                <li><a class="text-white" href="#">22/07/2024 -- Phanto</a>
+                    <div class="col text-center">
+                        <button class="btn btn-primary text-center" type="button">Ouvrir</button>
+                    </div>
+                </li><hr>
+                <li><a class="text-white" href="#">22/07/2024 -- Fanta</a>
+                    <div class="col text-center">
+                        <button class="btn btn-primary text-center" type="button">Ouvrir</button>
+                    </div>
+                </li><hr>
+            </ul>
+            <a class="text-center" href="#">Afficher la suite...</a>
+        </div>
     </div>
 </div>
 
-<div class="container bg-dark text-white">
+<div class="bg-white">
+</br>
+</div>
+
+<div class="bg-black text-white p-4">
     <div class="text-center">
         <h1>Compteur des animaux</h1>
     </div>
-    <div class="row row-cols-2">
-        <div class="col">
-            <ul>
-                <li>Médor</li>
-                <li>Lili</li>
-                <li>Toto</li>
-            </ul>
+        <div class="row-cols">
+            <div class="row-col-6">
+                <p>Léo</p>
+                <p>Léa</p>
+                <p>Tigro</p>
+            </div>
+            <div class="row-col-6">
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 97%"></div>
+                </div></br>
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 92%"></div>
+                </div></br>
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 82%"></div>
+                </div></br>
+            </div>
         </div>
-        <div class="col">
-            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar" style="width: 0%"></div>
-              </div>
-              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar" style="width: 25%"></div>
-              </div>
-              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar" style="width: 50%"></div>
-              </div>
-        </div>
-    </div>
+        <a class="text-center" href="#">Afficher la suite...</a>
 </div>

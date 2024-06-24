@@ -12034,25 +12034,26 @@ a {
   color: #768C56;
 }
 
-.admin-account {
+.avis-scene {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
-.admin-account::before {
+.avis-scene::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
-  background-color: #415936;
+  height: 100%;
+  background-image: url(../images/ZooPerson2.jpg);
   background-size: cover;
+  filter: brightness(0.6);
 }
-.admin-account * {
+.avis-scene * {
   position: relative;
 }
-.admin-account .admin-account.content {
-  height: 300px;
+.avis-scene .avis-scene-content {
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12117,4 +12118,30 @@ a {
 
 .form-label {
   color: #768C56;
+}
+
+.hab-ter-scene {
+  position: relative;
+  margin-bottom: 15px;
+}
+.hab-ter-scene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/HabitatTerrestreSuricate.jpg);
+  background-size: cover;
+  filter: brightness(0.6);
+}
+.hab-ter-scene * {
+  position: relative;
+}
+.hab-ter-scene .hero-scene-content {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
