@@ -11971,6 +11971,12 @@ html {
   min-height: 100%;
 }
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+}
+
 main {
   margin-bottom: 170px;
 }
@@ -11998,8 +12004,9 @@ main {
 
 .image-card {
   position: relative;
-  /* max-width: 100%;
-  height: auto; */
+}
+.image-card img {
+  height: 175px;
 }
 .image-card .titre-image {
   position: absolute;

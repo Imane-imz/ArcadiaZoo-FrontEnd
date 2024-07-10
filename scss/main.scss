@@ -6,6 +6,11 @@ html {
     min-height: 100%;
 }
 
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
 main {
     margin-bottom: 170px;
 }
@@ -33,8 +38,9 @@ main {
 
 .image-card{
     position:relative;
-    /* max-width: 100%;
-    height: auto; */
+        img{
+            height:175px;
+        }
 
     .titre-image{
         position: absolute;
